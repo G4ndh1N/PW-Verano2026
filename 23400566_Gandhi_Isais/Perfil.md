@@ -1,24 +1,20 @@
-<img src="https://avatars.githubusercontent.com/u/27718680?v=4" width="150" alt="Foto de perfil de Yair Nava" />
+<img src="https://avatars.githubusercontent.com/u/117303338?v=4" width="150" alt="Foto de perfil de Gandhi Isais" />
 
-# 👋 Hola, soy Yair Nava
+# 👋 Hola, soy Gandhi Isais
 
 ## 🎓 Información general
 - 📚 Carrera: Ingeniería en Sistemas Computacionales
 - 🏫 Escuela: Instituto Tecnológico de Tepic
-- 🆔 Número de Control: 14400975
+- 🆔 Número de Control: 23400566
 
 ## 💻 Intereses
 - Inteligencia Artificial
-- Desarrollo Frontend
 - Desarrollo Backend
-- Desarrollo Movil
 
 ## 🛠 Tecnologías que conozco
-- Java, JavaScript, Python, Rust
-- MySQL, MongoDB
-- Angular, Next.js, Ionic
-- Git y GitHub
+- Java
+- MySQL, SQL Server
 
 ## 📫 Cómo contactarme
-- Correo: iryanavahe@ittepic.edu.mx
+- Correo: gaanisaisna@ittepic.edu.mx
 - GitHub: [@yaairnaavaa](https://github.com/yaairnaavaa)
