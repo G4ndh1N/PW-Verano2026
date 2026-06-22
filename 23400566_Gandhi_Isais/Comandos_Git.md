@@ -79,4 +79,3 @@
 ## 20. git fetch
 - Descarga toda la información y confirmaciones más recientes del repositorio remoto sin fusionarlas aún con tus archivos locales.
 - Quieres ver si tus compañeros han subido nuevas ramas o cambios a GitHub, pero solo quieres inspeccionar la estructura del repositorio remoto sin alterar ni mezclar nada de tu código local todavía.
-- Descarga toda la información y confirmaciones más recientes del repositorio remoto sin fusionarlas aún con tus archivos locales.
