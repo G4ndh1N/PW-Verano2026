@@ -17,4 +17,4 @@
 
 ## 📫 Cómo contactarme
 - Correo: gaanisaisna@ittepic.edu.mx
-- GitHub: [@g4ndh1n](https://github.com/g4ndhi1n)
+- GitHub: [@G4ndh1N](https://github.com/G4ndh1N)
