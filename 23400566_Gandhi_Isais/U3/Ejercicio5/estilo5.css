@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /*Alinea el header, main y footer en fila vertical*/
+    min-height: 100vh; /*Obliga al body medir toda la altura de la pantalla*/
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end; /*Poner el menu al extremo derecho*/ 
+    padding: 0px;
+}
+
+.caja_logo{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.G1 { color: #4285F4; } /* G inicial: Azul fuerte */
+.O1 { color: #DB4437; } /* O primera: Rojo fuerte */
+.O2 { color: #F4B400; } /* O segunda: Amarillo */
+.G2 { color: #4285F4; } /* g segunda: Azul fuerte */
+.L { color: #0F9D58; } /* l inicial: Verde fuerte */
+.E { color: #DB4437; }
+
+nav, a, nav button{
+    margin-left: 15px; /*Separa los elementos entre si*/
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+}
+
+nav button{
+    border-radius: 15px;
+    padding: 8px;
+    background: #4285F4;
+    border:#4285F4 solid ;
+    color: white;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column; /* Alinea Logo, Input y Botones uno abajo del otro */
+    align-items: center; /* Centra todo horizontalmente */
+    justify-content: center; /* Centra todo verticalmente en el espacio disponible */
+    flex-grow: 1; /* Absorbe el espacio disponible */
+}
+
+.caja_busqueda{
+    width: 100%;
+    max-width: 580px; /*Ancho maximo de la caja/contenedor donde estara el input*/
+    margin: 20px 0;
+}
+
+.caja_busqueda input{
+    width: 95%;
+    padding: 12px 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.caja_botones{
+    display: flex;
+    flex-direction: row; /* Los alinea en fila horizontal (uno al lado del otro) */
+    justify-content: center; /* Los centra perfectamente */
+    gap: 12px;  /*Separa los botones entre sí */
+    margin-top: 10px;
+}
+
+.caja_botones button{
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.caja_botones button:hover{
+    border: 1px #afafaf solid;
+}
+
+footer{
+    background: #f1f1f1;
+}
+
+.seccion_pais{
+    padding: 1px 35px;
+    border-bottom: 1px solid rgb(218, 218, 218); 
+    color: #afafaf;
+}
+
+.caja_enlaces{
+    display: flex;
+    justify-content: space-between; /* Envía un bloque a la izquierda y otro a la derecha */
+    padding: 15px 20px;
+    flex-wrap: wrap; /*Si la pantalla es chica se acomoda solo*/
+}
+
+.seccion_izq a, .seccion_der a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #afafaf;
+}
+
+
+
+
+
