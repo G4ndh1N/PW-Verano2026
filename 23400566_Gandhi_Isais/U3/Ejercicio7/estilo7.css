@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #040714;
+    color: #f9f9f9;
+    overflow-x: hidden;
+}
+
+/* --- SECTION 1: HERO --- */
+.section1 {
+    position: relative;
+    padding: 40px 5%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: #333 url("assets/assets/main-hero-background.png") no-repeat center/cover;
+}
+
+.section1 header {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+}
+
+.section1 header button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.section1 main {
+    max-width: 650px;
+}
+
+.section1 main img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.section1 main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.caja_main_botones {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.caja_main_botones input {
+    flex: 1;
+    background-color: #31343e;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.caja_main_botones button {
+    background-color: #00bef4;
+    color: #fff;
+    border: none;
+    padding: 0 25px;
+    font-weight: bold;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.section1 main p {
+    font-size: 0.85rem;
+    color: #a2a4a7;
+    margin-bottom: 10px;
+}
+
+.section1 main p a {
+    color: #fff;
+}
+
+.details {
+    color: #fff;
+    font-size: 0.85rem;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.caja_logos_disney img {
+    width: 100%;       
+    max-width: 750px;  
+    height: auto;      
+    display: block;    
+    margin-top: 15px;
+}
+
+
+/* --- SECTION 2 --- */
+.section2 {
+    padding: 65px 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_section2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    text-align: center;   
+    width: 100%;
+    max-width: 800px;      
+}
+
+.caja_soloDisney {
+    margin-bottom: 30px;    
+}
+
+.caja_soloDisney h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.caja_soloDisney p {
+    font-size: 1rem;
+    color: #a2a4a7;
+}
+
+.caja_starwars {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.caja_starwars div {
+    position: relative; 
+    width: 100%;
+    max-width: 700px;   
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.caja_starwars img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caja_starwars h3 {
+    position: absolute;      
+    z-index: 2;              
+    color: #fff;
+    font-size: 2.2rem;       
+    font-weight: 700;
+    text-align: center;      
+    padding: 0 20px;         
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.9); 
+}
+
+
+/* --- SECTION 3 --- */
+.section3 {
+    padding: 40px 5%;
+}
+
+.catalogoPelis {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+}
+
+.catalogoPelis div {
+    width: 200px; 
+    text-align: center;
+}
+
+.catalogoPelis img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: transform 0.2s;
+}
+
+.catalogoPelis img:hover {
+    transform: scale(1.05);
+}
+
+
+/* --- SECTION 4 --- */
+.section4 {
+    padding: 60px 5%;
+    text-align: center;
+}
+
+.contenedor_section4 .h1 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contenedor_section4 .h1 p {
+    margin-bottom: 40px;
+    color: #a2a4a7;
+}
+
+.contenedorTabla {
+    overflow-x: auto; 
+}
+
+table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #1a1d29;
+    border: none;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #31343e;
+}
+
+table tr th:first-child {
+    text-align: left;
+    max-width: 350px;
+}
+
+.encabezados_premium {
+    color: white;
+    font-weight: bold;
+    background: #00bef4;
+}
+
+.check p {
+    color: rgb(0, 255, 0);
+    font-size: 1.5rem;
+}
+
+.guion p {
+    color: red;
+}
+
+
+/* --- SECTION 5 --- */
+.section5 {
+    padding: 60px 5%;
+}
+
+.contenedorAhora {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contenedorAhora h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contenedorDp {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+}
+
+.contenedorDp img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contenedorDp div {
+    display: none;
+}
+
+
+/* --- SECTION 6 --- */
+.section6 {
+    padding: 60px 5%;
+    text-align: center;
+}
+
+.contenedorCuando h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contenedorCuando p {
+    margin-bottom: 30px;
+    color: #a2a4a7;
+}
+
+.contenedor_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* --- SECTION 7 ---*/
+.section7 {
+    padding: 40px 5%;
+    text-align: center;
+    background-color: #0e111d;
+    color: #a2a4a7;
+    font-size: 0.8rem;
+}
+
+
+@media (max-width: 768px) {
+    /* Section 1 */
+    .section1 {
+         background: #333 url("assets/assets/main-hero-background.png") no-repeat center/cover;
+        justify-content: flex-end;
+        padding-bottom: 60px;
+    }
+    .section1 header {
+        top: 20px;
+    }
+    .section1 main h1 {
+        font-size: 1.8rem;
+    }
+    .caja_main_botones {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .caja_main_botones input, .caja_main_botones button {
+        border-radius: 4px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    /* Section 2 */
+    .contenedor_section2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .caja_soloDisney h1 {
+        font-size: 1.8rem;
+    }
+
+    /* Section 3 */
+    .catalogoPelis div {
+        width: 45%; 
+    }
+    .catalogoPelis img {
+        height: 200px;
+    }
+
+    /* Section 4 */
+    .contenedor_section4 .h1 h1 {
+        font-size: 1.8rem;
+    }
+    th, td {
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+
+    /* Section 5 */
+    .contenedorAhora h1 {
+        font-size: 1.8rem;
+    }
+    .contenedorDp {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    /* Section 6 */
+    .contenedorCuando h1 {
+        font-size: 1.8rem;
+    }
+}
