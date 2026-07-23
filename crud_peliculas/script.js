@@ -1,4 +1,4 @@
-const API_URL = "https://api-peliculas-iota.vercel.app/";
+const API_URL = "https://api-peliculas-iota.vercel.app/peliculas";
 
 const formulario = document.getElementById("formulario");
 const id = document.getElementById("id");
